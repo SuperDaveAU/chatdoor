@@ -1,0 +1,42 @@
+<svg width="420" height="520" viewBox="0 0 420 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bubbleGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2F80ED"/>
+      <stop offset="100%" stop-color="#1C6ED5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chat Bubble -->
+  <rect x="60" y="40" rx="40" ry="40" width="300" height="220" fill="url(#bubbleGradient)"/>
+  <polygon points="100,260 140,260 120,300" fill="url(#bubbleGradient)"/>
+
+  <!-- Lock Icon -->
+  <rect x="155" y="125" width="110" height="90" rx="18" fill="#FFFFFF"/>
+  <path d="M175 125 v-20 a35 35 0 0 1 70 0 v20"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="12"
+        stroke-linecap="round"/>
+  <circle cx="210" cy="165" r="10" fill="#2F80ED"/>
+  <rect x="206" y="165" width="8" height="25" rx="4" fill="#2F80ED"/>
+
+  <!-- Brand Text -->
+  <text x="210" y="380"
+        text-anchor="middle"
+        font-size="64"
+        font-weight="700"
+        fill="#0B2E59"
+        font-family="Inter, Segoe UI, Arial, sans-serif">
+    Chatdoor
+  </text>
+
+  <text x="210" y="430"
+        text-anchor="middle"
+        font-size="28"
+        letter-spacing="4"
+        fill="#0B2E59"
+        font-family="Inter, Segoe UI, Arial, sans-serif">
+    P2P CHAT
+  </text>
+</svg>
+
