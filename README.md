@@ -251,7 +251,7 @@ chatdoor/
 
 ### Prerequisites
 
-- Go 1.21+
+- Go 1.25.6+
 - Make (optional)
 
 ### Building
@@ -343,20 +343,8 @@ A: No, it's designed for 1-on-1 communication only.
 **Q: What happens if connection drops?**  
 A: You'll need to reconnect manually. There's no automatic reconnection or message queuing.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
 ## License
 
 GPL3 License - See LICENSE file
 
-## Disclaimer
 
-This tool is for educational and legitimate privacy purposes only. Users are responsible for compliance with local laws. The authors are not responsible for misuse.
-
-## Acknowledgments
-
-- Built with [gorilla/websocket](https://github.com/gorilla/websocket)
-- Crypto powered by [golang.org/x/crypto](https://golang.org/x/crypto)
-- Inspired by steganography and covert channel research
