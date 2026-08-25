@@ -4,6 +4,7 @@
 
 [![Build CI](https://github.com/SuperDaveAU/chatdoor/actions/workflows/build.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/build.yml)
 [![Go Mod Vuln Scan](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml) 
+[![Dependabot](https://img.shields.io/badge/dependabot-enabled-025E8C?logo=dependabot&logoColor=white)](https://github.com/SuperDaveAU/chatdoor/network/updates)
 
 **Covert peer-to-peer chat disguised as IoT traffic**
 
