@@ -5,7 +5,8 @@
 [![Build CI](https://github.com/SuperDaveAU/chatdoor/actions/workflows/build.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/build.yml)
 [![Go Mod Vuln Scan](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml) 
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen?logo=dependabot&logoColor=white)](https://github.com/SuperDaveAU/chatdoor/network/updates)
-[![Go version](https://shields.io)](https://github.com)
+[![Go mod version](https://img.shields.io/github/go-mod/go-version/SuperDaveAU/chatdoor)](https://github.com/SuperDaveAU/chatdoor/blob/main/go.mod)
+[![Go Report Card](https://goreportcard.com/badge/github.com/SuperDaveAU/chatdoor)](https://goreportcard.com/report/github.com/SuperDaveAU/chatdoor)
 
 
 **Covert peer-to-peer chat disguised as IoT traffic**
