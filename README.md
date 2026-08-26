@@ -6,8 +6,7 @@
 [![Go Mod Vuln Scan](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml) 
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen?logo=dependabot&logoColor=white)](https://github.com/SuperDaveAU/chatdoor/network/updates)
 [![Go mod version](https://img.shields.io/github/go-mod/go-version/SuperDaveAU/chatdoor)](https://github.com/SuperDaveAU/chatdoor/blob/main/go.mod)
-[![codecov](https://codecov.io/gh/SuperDaveAU/chatdoor/branch/main/graph/badge.svg)](https://codecov.io/gh/SuperDaveAU/chatdoor)
-[![CodeQL](https://github.com/SuperDaveAU/chatdoor/actions/workflows/codeql.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/codeql.yml)
+
 
 
 
