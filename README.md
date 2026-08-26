@@ -6,7 +6,9 @@
 [![Go Mod Vuln Scan](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/security.yml) 
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen?logo=dependabot&logoColor=white)](https://github.com/SuperDaveAU/chatdoor/network/updates)
 [![Go mod version](https://img.shields.io/github/go-mod/go-version/SuperDaveAU/chatdoor)](https://github.com/SuperDaveAU/chatdoor/blob/main/go.mod)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SuperDaveAU/chatdoor)](https://goreportcard.com/report/github.com/SuperDaveAU/chatdoor)
+[![codecov](https://codecov.io/gh/SuperDaveAU/chatdoor/branch/main/graph/badge.svg)](https://codecov.io/gh/SuperDaveAU/chatdoor)
+[![CodeQL](https://github.com/SuperDaveAU/chatdoor/actions/workflows/codeql.yml/badge.svg)](https://github.com/SuperDaveAU/chatdoor/actions/workflows/codeql.yml)
+
 
 
 **Covert peer-to-peer chat disguised as IoT traffic**
@@ -255,7 +257,7 @@ chatdoor/
 
 ### Prerequisites
 
-- Go 1.25.6+
+- Go 1.27.0+
 - Make (optional)
 
 ### Building
