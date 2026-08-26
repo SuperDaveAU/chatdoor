@@ -8,12 +8,15 @@ on:
     branches:
       - main
   schedule:
-    # Run a full scan regularly (e.g., every Monday at midnight)
     - cron: '0 0 * * MON'
 
 jobs:
   vuln-scan:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
@@ -28,20 +31,6 @@ jobs:
 
       - name: Install govulncheck
         run: go install golang.org/x/vuln/cmd/govulncheck@latest
-        shell: bash
 
-      - if: inputs.output-file == ''
-        name: Run govulncheck
-        run: govulncheck -C ${{ inputs.work-dir }} -format ${{ inputs.output-format }} ${{ inputs.go-package }}
-        shell: bash
-        
-      - if: inputs.output-file != ''
-        name: Run govulncheck and save to file
-        run: govulncheck -C ${{ inputs.work-dir }} -format ${{ inputs.output-format }} ${{ inputs.go-package }} > ${{ inputs.output-file }}
-        shell: bash
-
-    permissions:
-      contents: read
-      # Required permission to upload code scanning results
-      security-events: write 
-
+      - name: Run govulncheck
+        run: govulncheck ./...
